@@ -1,6 +1,6 @@
 ---
 title: "Robust Statistical Analysis"
-excerpt: "https://github.com/shubha3/NPmodalReg/blob/main/Figures/uniVSmulti.pdf"<!-- "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>" -->
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
