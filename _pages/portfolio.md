@@ -18,6 +18,8 @@ author_profile: true
  > In this report we discuss the method of Fast Bootstrap to obtain an estimate of the distribution of robust regression estimates. The weighted average representation of MM-estimates has been very crucial to the formulation of our problem. This method is computationally less costly as for each bootstrap sample we do not run non-convex optimization algorithm. Rather, we only solve a system of linear equations. Robustness is achieved by using weights as a decreasing function of absolute value of the residuals. The breakdown point of the quantile estimates from this method is higher than classical bootstrap estimates. We illustrate the method using a simulation study and also by performing data analysis in two different data sets.
 
 - **Efficient High-dimensional Robust  Variable Selection via Rank-based LASSO Methods.**
+
+
 <!--{% include base_path %}
 
 {% for post in site.portfolio reversed %}
