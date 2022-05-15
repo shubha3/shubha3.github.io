@@ -7,7 +7,7 @@ author_profile: true
 ### *Course Projects* 
 ---
 
-- **A Brief Review of Sparse Principal Components Analysis and its Generalization.** [here](/files/Shubha CV May10.pdf){: .btn--research}
+- **A Brief Review of Sparse Principal Components Analysis and its Generalization.** [Report](files/pdfs/Multivariate Project Report.pdf){: .btn--research}
 
 <!--{% include base_path %}
 
