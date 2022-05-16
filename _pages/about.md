@@ -18,4 +18,4 @@ Apart from the academic pursuits, I am very passionate about music and cricket. 
 
 * Ph.D., Department of Statistics, University of Pittsburgh, PA, USA. *(Expected 2027)*
 * Master of Science in Statistics, Indian Institute of Technology Kanpur, UP, India. *(2022)*
-* Bachelor of Science in Statistics, St. Xavier's College, Kolkata, WB, India. (2020)
+* Bachelor of Science in Statistics, St. Xavier's College, Kolkata, WB, India. *(2020)*
