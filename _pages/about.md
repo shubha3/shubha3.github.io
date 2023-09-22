@@ -22,4 +22,5 @@ Apart from the academic pursuits, I am very passionate about music and cricket. 
 
 # News
 
+* Master's project has been accepted for publication! "Asymptotic Analysis of Regression Quantile Estimators for Real-Valued Chirp Signal Model" has been published in *Circuits, Systems, and Signal Processing (2023)*.
 * I will be joining University of Pittsburgh as a PhD student starting August 15, 2022.
