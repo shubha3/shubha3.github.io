@@ -31,7 +31,7 @@ near-linear relationship among any subsets of the regressors, tests of significa
 ### *Posters*
 ---
 
-- **Simulated Power Calculations for Mediation Effects with Covariates.** [Poster](files/pdfs/Keystone_Symposium_Poster_2023-2.pdf){: .btn--research}
+- **Simulated Power Calculations for Mediation Effects with Covariates.** [Poster](/files/pdfs/Keystone_Symposium_Poster_2023-2.pdf){: .btn--research}
   
 > Joint Work with Heqiao Ruan and advised by Prof. Satish Iyengar. Poster presented at the inaugural Keystone State Statistics Symposium hosted by Penn State University, Oct 7-8, 2023.
   
