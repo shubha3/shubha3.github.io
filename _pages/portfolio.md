@@ -27,6 +27,7 @@ author_profile: true
  > The main objective of the project is to properly explain protein’s tertiary structure which we have taken as RMSD (Root Mean Square Deviation) by a linear model of 9 other components given as F1, F2, F3, F4, F5, F6, F7, F8, F9 using different tools of regression analysis. We aim to model the relationship between response and the regressors using an MLR model. Along with an empirical evaluation, we will be performing a detailed mathematical analysis of different aspects of the model to establish its validity. This includes Residual analysis to check if our model assumptions hold true, tests for checking Multi-collinearity to check if there exists any
 near-linear relationship among any subsets of the regressors, tests of significance to guarantee that the derived model parameters do make sense, and also variable selection to see if we can get the same result as our full model using only lesser number of regressors. To summarize, we are aiming to build a model of RMSD by identifying the most important factors (or regressors) through the regression analysis and model diagnostics.
 
+{% include base_path %}
 ---
 ### *Posters*
 ---
@@ -35,7 +36,6 @@ near-linear relationship among any subsets of the regressors, tests of significa
   
 > Joint Work with Heqiao Ruan and advised by Prof. Satish Iyengar. Poster presented at the inaugural Keystone State Statistics Symposium hosted by Penn State University, Oct 7-8, 2023.
   
-<!--{% include base_path %}
 
 {% for post in site.portfolio reversed %}
   {% include archive-single.html %}
