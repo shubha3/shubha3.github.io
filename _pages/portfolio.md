@@ -36,8 +36,8 @@ near-linear relationship among any subsets of the regressors, tests of significa
   
 > Joint Work with Heqiao Ruan and advised by Prof. Satish Iyengar. Poster presented at the inaugural Keystone State Statistics Symposium hosted by Penn State University, Oct 7-8, 2023.
   
-<-- {% include base_path %}
-{% for post in site.portfolio reversed %}
-{% include archive-single.html %}
-{% endfor %}-->
+/*<-- {% include base_path %}*/
+/*{% for post in site.portfolio reversed %}*/
+/*{% include archive-single.html %}*/
+/*{% endfor %}-->*/
 
