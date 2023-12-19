@@ -7,6 +7,13 @@ author_profile: true
 ### *Course Projects* 
 ---
 {% include base_path %}
+- **Conformalized Survival Analysis- A Review.**  [Report](/files/pdfs/Survival Project Report.pdf){: .btn--research} [Slides](/files/pdfs/Survival Project Slides.pdf){: .btn--research} 
+ > In this project we review discuss the methodology involving inference using conformal prediction proposed by [Candès et al. (2023)](https://doi.org/10.1093/jrsssb/qkac004) which can be used with any survival prediction methods to produce calibrated, covariate-dependent lower predictive bounds on survival times. Since conformal prediction is a powerful but relatively new tool for inference, we discuss the basic concepts related to conformal prediction for more rudimentary models before motivating ourselves to apply similar techiques in the survival analysis regime. In this project we talk about generation of lower predictive bounds with almost exact coverage and discuss an algorithm adapted from equivalent regression model approach and its application in the survival model setup.
+
+
+- **Conditional Calibration For False Discovery Rate Control Under Dependence- A Review.** [Slides](/files/pdfs/Multiple Testing Project Slides.pdf){: .btn--research}
+ > Studied the theory & methodology proposed by the [Fithian, W. and Lei, L. (2022)](https://doi.org/10.1214/21-AOS2137) to adaptively calibrate separate rejection threshold for each p-value to control overall FDR under different dependence structures.
+
 - **A Brief Review of Sparse Principal Components Analysis and its Generalization.**  [Report](/files/pdfs/Multivariate Project Report.pdf){: .btn--research} [Slides](/files/pdfs/Multivariate Project slides.pdf){: .btn--research} [Codes](https://github.com/shubha3/SPCA){: .btn--research}   
  > Principal Component Analysis is a widely studied methodology as it is a useful technique for dimension reduction. In this report, we discuss Sparse Principal Component Analysis (SPCA), which is a modification over PCA. This method is able to resolve the interpretation issue of PCA. Additionally, it provides sparse loadings to the principal components. The main idea of SPCA comes from the relationship between PCA problem and regression analysis. We also discuss GAS-PCA, which is a generalization over SPCA and this method performs better than SPCA, even in finite sample cases. Our report is mainly based on [Zou et al. (2006)](https://doi.org/10.1198/106186006X113430) and its extension 
   [Leng and Wang (2009)](https://doi.org/10.1198/jcgs.2009.0012).
