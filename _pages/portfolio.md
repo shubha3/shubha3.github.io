@@ -39,7 +39,7 @@ near-linear relationship among any subsets of the regressors, tests of significa
 ### *Talks and Conferences*
 ---
 {% include base_path %}
-- **Power Analysis for Mediation Models: Methods and Results.** [Slides](files/pdfs/talk-nov9-deptpsych.pdf){: .btn--research}
+- **Power Analysis for Mediation Models: Methods and Results.** [Slides](/files/pdfs/talk-nov9-deptpsych.pdf){: .btn--research}
   > Presentation of summer project results to [Phillips Lab](https://phillips.pitt.edu), Department of Psychiatry, University of Pittsburgh.
 - **Simulated Power Calculations for Mediation Effects with Covariates.** [Poster](/files/pdfs/Keystone_Symposium_Poster_23.pdf){: .btn--research}
   > Joint Work with Heqiao Ruan and advised by Prof. Satish Iyengar. Poster presented at the inaugural Keystone State Statistics Symposium hosted by Penn State University, Oct 7-8, 2023.
