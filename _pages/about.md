@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at [University of Pittsburgh](https://www.pitt.edu/). I have completed my Masters degree in Statistics from  [Department of Mathematics & Statistics](https://iitk.ac.in/math/), Indian Institute of Technology Kanpur. My primary research interests include Methodological Statistics, Robust Statistical Analysis, Bayesian Analysis and Time Series. I love working in domains which help me explore new concepts and techniques in Statistics and Mathematics.
+I am a PhD student at [University of Pittsburgh](https://www.stat.pitt.edu/). I have completed my Masters degree in Statistics from  [Department of Mathematics & Statistics](https://iitk.ac.in/math/), Indian Institute of Technology Kanpur. My primary research interests include Robust Analysis, High-Dimensional Statistics, Causal Inference, Bayesian Analysis. I love working on exploring new interesting fields in which I have little experience in. Currently I am looking for an internship position for Summer'24 in biostatistics and data science.
 
 I hail from Jalpaiguri, a town in West Bengal, where I spent the entire duration of my school life. I spent 3 years in Kolkata for my Bachelors degree and the final year of my Masters at Kanpur. I am fortunate enough to be advised by [Prof. Amit Mitra](https://home.iitk.ac.in/~amitra/), who guided me through my M.Sc. Research Project, introducing me to problems pertaining to robust and parsimonious signal processing models. 
 
