@@ -27,4 +27,3 @@ Apart from the academic pursuits, I am very passionate about music and cricket. 
 * I will be joining University of Pittsburgh as a PhD student starting August 15, 2022.
 
 
-<a href="https://mapmyvisitors.com/web/1bvzd"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=0gCf1W1j2RlI_bzIVQpmpXh_9EveK9bw9FkjQKvoaUc&cl=ffffff" /></a>
