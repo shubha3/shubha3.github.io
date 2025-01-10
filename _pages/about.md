@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at [University of Pittsburgh](https://www.stat.pitt.edu/). I have completed my Masters degree in Statistics from  [Department of Mathematics & Statistics](https://iitk.ac.in/math/), Indian Institute of Technology Kanpur. My primary research interests include Robust Analysis, High-Dimensional Statistics, Causal Inference, Bayesian Analysis. I love working on exploring new interesting fields in which I have little experience in.
+I am a PhD student at [University of Pittsburgh](https://www.stat.pitt.edu/) being advised by [Prof. Zhao Ren](https://www.stat.pitt.edu/people/zhao-ren). I have completed my Masters degree in Statistics from  [Department of Mathematics & Statistics](https://iitk.ac.in/math/), Indian Institute of Technology Kanpur. My primary research interests include Robust Analysis, High-Dimensional Statistics, Causal Inference, Bayesian Analysis. I love working on exploring new interesting fields in which I have little experience in.
 
 I hail from Jalpaiguri, a town in West Bengal, where I spent the entire duration of my school life. I spent 3 years in Kolkata for my Bachelors degree and the final year of my Masters at Kanpur. I am fortunate enough to be advised by [Prof. Amit Mitra](https://home.iitk.ac.in/~amitra/), who guided me through my M.Sc. Research Project, introducing me to problems pertaining to robust and parsimonious signal processing models. 
 
@@ -22,8 +22,10 @@ Apart from the academic pursuits, I am very passionate about music and cricket. 
 
 # News
 
+* Paper accepted in *Human Brain Mapping (2025)*!
+* Presenting a poster at MDS-Rely Fall'24 meeting at Case Western Reserve University, Cleveland.
 * Will be presenting a poster titled "Simulated Power Calculations for Mediation Effects with Covariates" at the Keystone State Statistics Symposium, Penn State University on Oct 7, 2023.
 * Master's project has been accepted for publication on Sep 21, 2023! "Asymptotic Analysis of Regression Quantile Estimators for Real-Valued Chirp Signal Model" has been published in *Circuits, Systems, and Signal Processing (2023)*.
-* I will be joining University of Pittsburgh as a PhD student starting August 15, 2022.
+
 
 
