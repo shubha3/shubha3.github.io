@@ -1,6 +1,6 @@
 ---
 title: "Shubha Sankar Banerjee"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+description-meta: "Personal Website of Shubha Sankar Banerjee"
 image: "files/profiles/profile1.JPG"
 page-navigation: false
 toc: false
@@ -12,36 +12,18 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:shubha.banerjee@pitt.edu    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/ssbanerjee461/
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+      href: https://orcid.org/0000-0002-1310-3338
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+    - text: "{{< ai google-scholar >}} Google Scholar" 
+      href: https://scholar.google.com/citations?hl=en&user=38jiY_AAAAAJ
       target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
@@ -63,36 +45,17 @@ listing:
     sort: 
       - "date desc"
       - "title asc"
+
+extensions:
+  - schochastics/academicons
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+I am Shubha, a PhD student in the Department of Statistics at University of Pittsburgh. I am advised by Dr. Zhao Ren. 
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+My research focuses on differential privacy and high-dimensional statistical inference. I am especially interested in the intersection of statistical theory and practice, including the development of privacy-preserving methods that are both theoretically optimal and practically implementable.
 
-1. Star this repository so you can easily come back to the template  
-1. Folk this tempate and rename it to `yourgithubusername.github.io`  
-1. Update and edit `_quarto.yml` file for website setup  
-1. Update and add contents to `/posts`, `teaching.qmd`, `projects.yml`, and `people.qmd` and `/people` as needed.
-1. [Render and preview](https://quarto.org/docs/websites/) your website and [publish](https://quarto.org/docs/publishing/github-pages.html) it to your GitHub.
-1. Polish and fix any issues  
-1. Enjoy your website!
+I got my Master's degree in Statistics from Indian Institute of Technology, Kanpur and got my Undergraduate degree from St. Xavier's College, Kolkata. During my master's, I worked on statistical signal processing and non-linear model analysis, advised by Dr. Amit Mitra.
 
-## Experience
 
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
-
-:::
-
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>
