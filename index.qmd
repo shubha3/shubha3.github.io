@@ -29,22 +29,22 @@ about:
 #      href: https://www.researchgate.net
 #      target: _blank
 
-listing:
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+#listing:
+#  - id: recent-posts
+#     contents: 
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+#     type: grid
+#     max-items: 3
+# #    image-height: 150px
+#     page-size: 3 #set same as max-times to remove the page number setting
+#     fields: [image, date, title, subtitle]
+#     max-description-length: 75
+#     sort: 
+#       - "date desc"
+#       - "title asc"
 
 extensions:
   - schochastics/academicons
@@ -58,4 +58,4 @@ My research focuses on differential privacy and high-dimensional statistical inf
 
 I got my Master's degree in Statistics from Indian Institute of Technology, Kanpur and got my Undergraduate degree from St. Xavier's College, Kolkata. During my master's, I worked on statistical signal processing and non-linear model analysis, advised by Dr. Amit Mitra.
 
-
+:::
