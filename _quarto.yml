@@ -59,7 +59,7 @@ website:
   repo-url: https://github.com/shubha3/shubha3.github.io
 
   google-analytics:
-    tracking-id: ""  # Add tracking ID if needed
+    tracking-id: "G-P4051D2MP3"  # Add tracking ID if needed
     anonymize-ip: true
 
 bibliography: references.bib
