@@ -1,35 +1,134 @@
 ---
 title: "Projects"
-subtitle: "Funded projects"
+subtitle: "Selected Projects"
 page-layout: full
-listing: 
-- id: projects
-  sort: "started desc"
-  type: table
-  fields: [image, title, author, subtitle, description, funding, started, ended]
-  grid-item-align: left
-  grid-columns: 3
-  image-height: 30px
-  field-display-names: 
-      title: "Title"
-      author: "Team"
-      subtitle: "Funder"
-      started: "Start"
-      ended: "End"
-      funding: "Funding"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
+format:
+  html:
+    toc: true
+    css: custom-styles.css
 ---
 
+# 2024
 
-:::{#projects}
-:::
+### Best Subset Selection via a Modern Optimization Lens – A Review
 
+<details>
+<summary><strong>Description</strong></summary>
 
-<!--Include social share buttons-->
+We reviewed the landmark work of [Bertsimas et al. (2016)](https://doi.org/10.1214/15-AOS1388), which proposes scalable Mixed Integer Optimization (MIO) techniques for best subset selection in linear regression. This approach allows for exact sparse solutions by formulating the ℓ₀-constrained problem into a Mixed Integer Quadratic Optimization (MIQO) framework. We also explored their Discrete First Order (DFO) algorithm for fast approximate solutions and warm-start initialization, along with theoretical guarantees on convergence and sparsity recovery.
 
-{{< include /files/includes/_socialshare.qmd >}}
+</details>
+
+<span class="badge">Regression</span><span class="badge">Subset Selection</span><span class="badge">Optimization</span>
+
+---
+
+# 2023
+
+### Conformalized Survival Analysis – A Review
+
+<details>
+<summary><strong>Description</strong></summary>
+
+In this project we review the methodology involving inference using conformal prediction proposed by [Candès et al. (2023)](https://doi.org/10.1093/jrsssb/qkac004), which can be used with any survival prediction methods to produce calibrated, covariate-dependent lower predictive bounds on survival times. We begin with conformal prediction for basic regression models and adapt similar techniques to the survival analysis regime.
+
+</details>
+
+[Report](files/pdf/academic/project_survival_pitt_report.pdf){.project-link}[Slides](files/pdf/academic/project_survival_pitt_slides.pdf){.project-link}  
+<span class="badge">Survival</span><span class="badge">Review</span>
+
+---
+
+# 2022
+
+### Conditional Calibration for FDR Control Under Dependence – A Review
+
+<details>
+<summary><strong>Description</strong></summary>
+
+Studied the theory and methodology proposed by [Fithian and Lei (2022)](https://doi.org/10.1214/21-AOS2137) to adaptively calibrate separate rejection thresholds for each p-value to control overall FDR under different dependence structures.
+
+</details>
+
+[Slides](files/pdf/academic/project_multipletesting_pitt_slides.pdf){.project-link}  
+<span class="badge">Multivariate</span><span class="badge">Review</span>
+
+### Sparse Principal Components Analysis and Its Generalization
+
+<details>
+<summary><strong>Description</strong></summary>
+
+Principal Component Analysis is a widely used technique for dimension reduction. We discuss Sparse Principal Component Analysis (SPCA), which provides sparse loadings to resolve PCA's interpretability issues. We also explore GAS-PCA, a generalization of SPCA that performs better in finite samples. Based on [Zou et al. (2006)](https://doi.org/10.1198/106186006X113430) and [Leng & Wang (2009)](https://doi.org/10.1198/jcgs.2009.0012).
+
+</details>
+
+[Report](files/pdf/academic/project_multivariate_report.pdf){.project-link}[Slides](files/pdf/academic/project_multivariate_iitk_slides.pdf){.project-link}[Code](https://github.com/shubha3/SPCA){.project-link}  
+<span class="badge">Multivariate</span><span class="badge">Regression</span><span class="badge">Review</span>
+
+### Bayesian Forecasting of UEFA Champions League
+
+<details>
+<summary><strong>Description</strong></summary>
+
+We simulate the UEFA Champions League under alternative seeding schemes using a probabilistic Bayesian forecasting model. The aim is to evaluate the effect of seeding changes on tournament outcomes and team advancement. Based on [Corona et al. (2019)](https://doi.org/10.1016/j.ijforecast.2018.07.009).
+
+</details>
+
+[Report](files/pdf/academic/project_bayesian_iitk_report.pdf){.project-link}[Slides](files/pdf/academic/project_bayesian_iitk_slides.pdf){.project-link}[Code](https://github.com/shubha3/MTH535A-Bayesian-Analysis){.project-link}  
+<span class="badge">Bayesian</span><span class="badge">Sports Analytics</span>
+
+### Fast and Robust Bootstrap for Regression Estimate Distribution
+
+<details>
+<summary><strong>Description</strong></summary>
+
+This report discusses Fast Bootstrap for estimating the distribution of robust regression estimates, based on MM-estimators. It avoids non-convex optimization and uses a system of linear equations for each bootstrap sample, with robustness from residual-based weights.
+
+</details>
+
+[Report](files/pdf/academic/project_nonpara_iitk_report.pdf){.project-link}[Slides](files/pdf/academic/project_nonpara_iitk_slides.pdf){.project-link}[Code](https://github.com/shubha3/MTH535A-Bayesian-Analysis){.project-link}  
+<span class="badge">Robustness</span><span class="badge">Bootstrap</span><span class="badge">Regression</span>
+
+---
+
+# 2021
+
+### Robust Variable Selection via Rank-Based LASSO
+
+<details>
+<summary><strong>Description</strong></summary>
+
+We present Rank-LASSO, a robust variable selection method for high-dimensional regression settings ($p \gg n$), which improves over LAD-LASSO using thresholded score statistics. Based on [Rejchel and Bogdan (2020)](https://jmlr.org/papers/v21/20-120.html), this approach performs well even with heavy-tailed errors.
+
+</details>
+
+[Report](files/pdf/academic/project_robust2_iitk_report.pdf){.project-link}[Slides](files/pdf/academic/project_robust2_iitk_slides.pdf){.project-link}[Code](https://github.com/shubha3/rankLASSO){.project-link}  
+<span class="badge">Regression</span><span class="badge">High-Dimensional</span><span class="badge">Robustness</span><span class="badge">Review</span>
+
+### Nonparametric Modal Regression via KDE
+
+<details>
+<summary><strong>Description</strong></summary>
+
+This project reviews nonparametric modal regression using kernel density estimation. We explore its consistency properties, prediction sets, and bandwidth selection strategies. Based on [Chen et al. (2016)](https://doi.org/10.1214/15-AOS1373).
+
+</details>
+
+[Report](files/pdf/academic/project_robust1_iitk_report.pdf){.project-link}[Slides](files/pdf/academic/project_robust1_iitk_slides.pdf){.project-link}[Code](https://github.com/shubha3/NPmodalReg){.project-link}  
+<span class="badge">Nonparametric</span><span class="badge">Regression</span><span class="badge">Review</span>
+
+---
+
+# 2020
+
+### Study of Physicochemical Properties of Protein Tertiary Structure
+
+<details>
+<summary><strong>Description</strong></summary>
+
+Modeled RMSD (protein tertiary structure deviation) using multiple linear regression with 9 features. We performed diagnostics including multicollinearity tests, residual analysis, and variable selection to validate the model.
+
+</details>
+
+[Report](files/pdf/academic/project_regression_iitk_report.pdf){.project-link}  
+<span class="badge">Regression</span>

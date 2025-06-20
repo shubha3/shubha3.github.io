@@ -1,10 +1,9 @@
 ---
 title: "Shubha Sankar Banerjee"
 description-meta: "Personal Website of Shubha Sankar Banerjee"
-image: "files/profiles/profile1.JPG"
+image: "files/profiles/dp1.jpeg"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
@@ -19,32 +18,12 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/ssbanerjee461/
       target: _blank
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+    - text: "{{< ai orcid >}} ORCID"
       href: https://orcid.org/0000-0002-1310-3338
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar" 
       href: https://scholar.google.com/citations?hl=en&user=38jiY_AAAAAJ
       target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-#listing:
-#  - id: recent-posts
-#     contents: 
-#       - posts
-#       - posts/post-links.yml
-#     exclude:
-#       title: ""
-#     type: grid
-#     max-items: 3
-# #    image-height: 150px
-#     page-size: 3 #set same as max-times to remove the page number setting
-#     fields: [image, date, title, subtitle]
-#     max-description-length: 75
-#     sort: 
-#       - "date desc"
-#       - "title asc"
 
 extensions:
   - schochastics/academicons
@@ -52,10 +31,16 @@ extensions:
 
 :::{#hero-heading}
 
-I am Shubha, a PhD student in the Department of Statistics at University of Pittsburgh. I am advised by Dr. Zhao Ren. 
+I am Shubha, a PhD student in the [Department of Statistics](https://www.stat.pitt.edu/) at [University of Pittsburgh](https://www.pitt.edu/). I am advised by [Dr. Zhao Ren](https://www.stat.pitt.edu/people/zhao-ren). 
 
 My research focuses on differential privacy and high-dimensional statistical inference. I am especially interested in the intersection of statistical theory and practice, including the development of privacy-preserving methods that are both theoretically optimal and practically implementable.
 
-I got my Master's degree in Statistics from Indian Institute of Technology, Kanpur and got my Undergraduate degree from St. Xavier's College, Kolkata. During my master's, I worked on statistical signal processing and non-linear model analysis, advised by Dr. Amit Mitra.
+I got my Master's degree in Statistics from [Indian Institute of Technology, Kanpur](https://www.iitk.ac.in/math) and got my Undergraduate degree from [St. Xavier's College, Kolkata](https://www.sxccal.edu/). During my master's, I worked on statistical signal processing and non-linear model analysis, advised by [Dr. Amit Mitra](https://home.iitk.ac.in/~amitra/).
+
+### Education
+
+- **Ph.D. in Statistics**, University of Pittsburgh (2022 – Present)  
+- **M.Sc. in Statistics**, Indian Institute of Technology Kanpur (2020 – 2022)  
+- **B.Sc. in Statistics**, St. Xavier’s College, Kolkata (2017 – 2020)
 
 :::

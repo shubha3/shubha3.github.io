@@ -3,102 +3,75 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Personal Website of Shubha Sankar Banerjee"
+author-meta: "Shubha Sankar Banerjee"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
+  title: "S S Banerjee"
+  image: "files/profiles/profile1.JPG"  # Replace with your actual image path
+  description: "PhD Student, Department of Statistics, University of Pittsburgh"
+
   navbar:
     background: light
 
     left:
-#      - text: Home
-#        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
-      - text: Research
-        menu:
-          - text: List of Publication
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group
-        href: people.qmd
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
 
-    right: 
+    right:
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/pdf/cv-shubha-june25.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/shubha3
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
+      - icon: twitter
+        href: https://x.com/ssbanerjee461
         target: _blank
-  
+
   page-navigation: true
-  
-  page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
+
+  page-footer:
+    left: "[Shubha Sankar Banerjee](https://shubha3.github.io) &copy; <script>document.write(new Date().getFullYear())</script>"
+    center: "Built using [Quarto Academic Template](https://github.com/drganghe/quarto-academic-website-template)"
+    right:
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
+        href: https://github.com/shubha3
         target: _blank
       - icon: rss
         href: posts.xml
-        target: _blank  
-  
+        target: _blank
+
   search:
     location: navbar
     type: textbox
-  
-  reader-mode: true
 
+  reader-mode: true
   draft-mode: unlinked
-  
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
-#  repo-actions: [edit, issue, source]
-  
   open-graph: true
-  
-  twitter-card: true 
-#  card-style: summary      
-  
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
+  twitter-card: true
+
+  site-url: "https://shubha3.github.io"
+
+  repo-url: https://github.com/shubha3/shubha3.github.io
+
   google-analytics:
-    tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
+    tracking-id: ""  # Add tracking ID if needed
+    anonymize-ip: true
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: flatly
+      dark: darkly
+    toggle-theme: true
+    default-mode: light
+    css: custom-styles.css
     toc: true
     footnotes-hover: true
     code-copy: true
@@ -108,6 +81,4 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
-

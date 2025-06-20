@@ -1,1 +1,43 @@
 /* css styles */
+/* ===== LIGHT MODE (flatly) ===== */
+body.light {
+  background-color: #fefefe !important;
+  color: #222 !important;
+}
+
+body.light a {
+  color: #004080 !important;
+}
+
+body.light a:hover {
+  color: #001f4d !important;
+}
+
+body.light .navbar {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ddd !important;
+}
+
+
+/* ===== DARK MODE (darkly) ===== */
+body.dark {
+  background-color: #181818 !important;
+  color: #eeeeee !important;
+}
+
+body.dark a {
+  color: #66ccff !important;
+}
+
+body.dark a:hover {
+  color: #99ddff !important;
+}
+
+body.dark .navbar {
+  background-color: rgba(26, 26, 26, 0.7) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #333 !important;
+}

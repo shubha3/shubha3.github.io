@@ -1,13 +1,93 @@
+- title: "Conformalized Survival Analysis – A Review"
+  year: 2023
+  description: >
+    In this project we review the methodology involving inference using conformal prediction proposed by Candès et al. (2023), which can be used with any survival prediction methods to produce calibrated, covariate-dependent lower predictive bounds on survival times. We begin with conformal prediction for basic regression models and adapt similar techniques to the survival analysis regime.
+  links:
+    - text: Report
+      url: files/pdf/academic/project_survival_pitt_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_survival_pitt_slides.pdf
+  categories: [Survival, Review]
 
-    - path: https://www.nsf.gov/ 
-      image: https://new.nsf.gov/themes/custom/nsf_theme/components/sdc-components/molecules/logo/logo-desktop.svg
-      title: "Exploring "
-      author: Academic Website
-      subtitle: "Funder"
-      description: "The goal of this project is to investigate ."
-      started: "2024"
-      ended: "2025"
-      funding: "$0"
-#      date: "2022-10-26"
-#      categories: [] 
+- title: "Conditional Calibration for FDR Control Under Dependence – A Review"
+  year: 2022
+  description: >
+    Studied the theory and methodology proposed by Fithian and Lei (2022) to adaptively calibrate separate rejection thresholds for each p-value to control overall FDR under different dependence structures.
+  links:
+    - text: Slides
+      url: files/pdf/academic/project_multipletesting_pitt_slides.pdf
+  categories: [Multivariate, Review]
 
+- title: "Sparse Principal Components Analysis and Its Generalization"
+  year: 2022
+  description: >
+    Principal Component Analysis is a widely used technique for dimension reduction. We discuss Sparse Principal Component Analysis (SPCA), which provides sparse loadings to resolve PCA's interpretability issues. We also explore GAS-PCA, a generalization of SPCA that performs better in finite samples. Based on Zou et al. (2006) and Leng and Wang (2009).
+  links:
+    - text: Report
+      url: files/pdf/academic/project_multivariate_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_multivariate_iitk_slides.pdf
+    - text: Code
+      url: https://github.com/shubha3/SPCA
+  categories: [Multivariate, Regression, Review]
+
+- title: "Bayesian Forecasting of UEFA Champions League"
+  year: 2022
+  description: >
+    We simulate the UEFA Champions League under alternative seeding schemes using a probabilistic Bayesian forecasting model. The aim is to evaluate the effect of seeding changes on tournament outcomes and team advancement. Based on Corona et al. (2019).
+  links:
+    - text: Report
+      url: files/pdf/academic/project_bayesian_iitk_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_bayesian_iitk_slides.pdf
+    - text: Code
+      url: https://github.com/shubha3/MTH535A-Bayesian-Analysis
+  categories: [Bayesian, Sports Analytics]
+
+- title: "Fast and Robust Bootstrap for Regression Estimate Distribution"
+  year: 2022
+  description: >
+    This report discusses Fast Bootstrap for estimating the distribution of robust regression estimates, based on MM-estimators. It avoids non-convex optimization and uses a system of linear equations for each bootstrap sample, with robustness from residual-based weights.
+  links:
+    - text: Report
+      url: files/pdf/academic/project_nonpara_iitk_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_nonpara_iitk_slides.pdf
+    - text: Code
+      url: https://github.com/shubha3/MTH535A-Bayesian-Analysis
+  categories: [Robustness, Bootstrap, Regression]
+
+- title: "Robust Variable Selection via Rank-Based LASSO"
+  year: 2021
+  description: >
+    We present Rank-LASSO, a robust variable selection method for high-dimensional regression settings (p >> n), which improves over LAD-LASSO using thresholded score statistics. Based on Rejchel and Bogdan (2020), this approach performs well even with heavy-tailed errors.
+  links:
+    - text: Report
+      url: files/pdf/academic/project_robust2_iitk_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_robust2_iitk_slides.pdf
+    - text: Code
+      url: https://github.com/shubha3/rankLASSO
+  categories: [Regression, High-Dimensional, Robustness, Review]
+
+- title: "Nonparametric Modal Regression via KDE"
+  year: 2021
+  description: >
+    This project reviews nonparametric modal regression using kernel density estimation. We explore its consistency properties, prediction sets, and bandwidth selection strategies. Based on Chen et al. (2016).
+  links:
+    - text: Report
+      url: files/pdf/academic/project_robust1_iitk_report.pdf
+    - text: Slides
+      url: files/pdf/academic/project_robust1_iitk_slides.pdf
+    - text: Code
+      url: https://github.com/shubha3/NPmodalReg
+  categories: [Nonparametric, Regression, Review]
+
+- title: "Study of Physicochemical Properties of Protein Tertiary Structure"
+  year: 2020
+  description: >
+    Modeled RMSD (protein tertiary structure deviation) using multiple linear regression with 9 features. We performed diagnostics including multicollinearity tests, residual analysis, and variable selection to validate the model.
+  links:
+    - text: Report
+      url: files/pdf/academic/project_regression_iitk_report.pdf
+  categories: [Regression]
